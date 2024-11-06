@@ -31,3 +31,6 @@ quasar mode add capacitor
 ```bash
 quasar build -m capacitor -T android
 ```
+
+## Демо apk
+[demo_apk.webm](https://github.com/user-attachments/assets/513e4e11-436f-4123-9aeb-7729157dfb0f)
