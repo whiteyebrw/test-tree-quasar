@@ -1,41 +1,33 @@
-# Quasar App (tree)
+# Локальный запуск
 
-A Quasar Project
+1. Установите все зависимости
 
-## Install the dependencies
 ```bash
-yarn
-# or
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+2. Запустите проект в режим разработки
+
 ```bash
-quasar dev
+npm run dev
 ```
 
+3. Клиент доступен по адресу
 
-### Lint the files
 ```bash
-yarn lint
-# or
-npm run lint
+http://localhost:9000/
 ```
 
+## Сборка apk
 
-### Format the files
+1. Добавление capacitor
+
 ```bash
-yarn format
-# or
-npm run format
+quasar mode add capacitor
 ```
 
+2. Сборка apk
 
-
-### Build the app for production
 ```bash
-quasar build
+quasar build -m capacitor -T android
 ```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
